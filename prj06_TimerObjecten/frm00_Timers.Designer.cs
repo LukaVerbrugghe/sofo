@@ -1,6 +1,6 @@
 ﻿namespace prj06_TimerObjecten
 {
-    partial class Form1
+    partial class frm00_Timers
     {
         /// <summary>
         /// Required designer variable.
@@ -58,17 +58,17 @@
             this.btnStop.TabIndex = 1;
             this.btnStop.Text = "Stop timer";
             this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // lblTekst
             // 
             this.lblTekst.AutoSize = true;
             this.lblTekst.Location = new System.Drawing.Point(45, 168);
             this.lblTekst.Name = "lblTekst";
-            this.lblTekst.Size = new System.Drawing.Size(35, 13);
+            this.lblTekst.Size = new System.Drawing.Size(0, 13);
             this.lblTekst.TabIndex = 2;
-            this.lblTekst.Text = "label1";
             // 
-            // Form1
+            // frm00_Timers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -76,7 +76,7 @@
             this.Controls.Add(this.lblTekst);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
-            this.Name = "Form1";
+            this.Name = "frm00_Timers";
             this.Text = "Timers";
             this.ResumeLayout(false);
             this.PerformLayout();
