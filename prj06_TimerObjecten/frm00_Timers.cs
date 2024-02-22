@@ -23,7 +23,6 @@ namespace prj06_TimerObjecten
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-
             if (aantalKeer < 10)
             {
                 aantalKeer++;
@@ -31,6 +30,7 @@ namespace prj06_TimerObjecten
             }
             else
             {
+                aantalSeconden += 5;
                 timer.Stop();
                 if (MessageBox.Show("Je runt nu al " + aantalSeconden.ToString() + " seconden. Wil je verder gaan?", "Verdergaan?", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
@@ -43,7 +43,6 @@ namespace prj06_TimerObjecten
                     timer.Stop();
                 }
             }
-            aantalSeconden += 5;
         }
 
         private void btnStart_Click(object sender, EventArgs e)
