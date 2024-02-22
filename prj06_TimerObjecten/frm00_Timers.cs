@@ -13,7 +13,7 @@ namespace prj06_TimerObjecten
     public partial class frm00_Timers : Form
     {
         int aantalKeer = 0;
-        double aantalSeconden = 0;
+        int aantalSeconden = 0;
 
 
         public frm00_Timers()
@@ -23,6 +23,7 @@ namespace prj06_TimerObjecten
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+
             if (aantalKeer < 10)
             {
                 aantalKeer++;
@@ -42,7 +43,7 @@ namespace prj06_TimerObjecten
                     timer.Stop();
                 }
             }
-            aantalSeconden += 0.5;
+            aantalSeconden += 5;
         }
 
         private void btnStart_Click(object sender, EventArgs e)
