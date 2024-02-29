@@ -16,7 +16,7 @@ namespace prj06_TimerObjecten
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm00_Timers());
+            Application.Run(new frm01_Slideshow());
         }
     }
 }
