@@ -19,10 +19,11 @@ namespace prj06_TimerObjecten {
             MessageBox.Show("Je dat klopt.");
         }
 
-        private void pictureBox1_MouseHover(object sender, EventArgs e) {
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
             Random rnd = new Random();
 
-            Point pt = new Point(rnd.Next(0,750), rnd.Next(0,450));
+            Point pt = new Point(rnd.Next(0, 750), rnd.Next(0, 450));
 
             pictureBox1.Location = pt;
         }

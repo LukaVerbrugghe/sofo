@@ -82,6 +82,12 @@
     <Compile Include="frm06_Homer.Designer.cs">
       <DependentUpon>frm06_Homer.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm07_Screensaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm07_Screensaver.Designer.cs">
+      <DependentUpon>frm07_Screensaver.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm00_Timers.resx">
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm06_Homer.resx">
       <DependentUpon>frm06_Homer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm07_Screensaver.resx">
+      <DependentUpon>frm07_Screensaver.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -139,6 +148,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\saai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105-0540_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105-0548_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105-0557_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105-0565_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105-0575_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105-0583_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106-0605_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106-0623_IMG.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106-0664_IMG.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
