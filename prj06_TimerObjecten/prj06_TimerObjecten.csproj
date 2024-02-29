@@ -58,6 +58,30 @@
     <Compile Include="frm01_Slideshow.Designer.cs">
       <DependentUpon>frm01_Slideshow.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm02_TimerInterval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm02_TimerInterval.Designer.cs">
+      <DependentUpon>frm02_TimerInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm03_DigitaleKlokje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm03_DigitaleKlokje.Designer.cs">
+      <DependentUpon>frm03_DigitaleKlokje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm04_Chronometer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm04_Chronometer.Designer.cs">
+      <DependentUpon>frm04_Chronometer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm06_Homer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm06_Homer.Designer.cs">
+      <DependentUpon>frm06_Homer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm00_Timers.resx">
@@ -65,6 +89,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm01_Slideshow.resx">
       <DependentUpon>frm01_Slideshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm02_TimerInterval.resx">
+      <DependentUpon>frm02_TimerInterval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm03_DigitaleKlokje.resx">
+      <DependentUpon>frm03_DigitaleKlokje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm04_Chronometer.resx">
+      <DependentUpon>frm04_Chronometer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm06_Homer.resx">
+      <DependentUpon>frm06_Homer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,6 +133,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Tom4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leuk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saai.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
